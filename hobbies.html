@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--    <link rel="stylesheet" href="Devs-style.css">-->
+    <link rel="stylesheet" href="hobbies.css">
+    <title> UMEADI CHIDERA P.</title>
+    
+    </head>
+    <body>
+        
+    <nav>
+
+        <ul class="topnav" id="dropdownClick">
+        <li><a href="devslopestutorial.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="works.html">Works</a></li>
+            <li class="topnav-right"><a href="contact.html">Contact</a></li>
+            <li class="topnav-right"><a href="#other">Other</a></li>
+            <li class="dropdownMenu"><a href="javascript:void(0);" onclick="dropdownItems ()">&#9776;</a></li>
+            
+        </ul>
+        </nav>
+        
+        <h1>HOBBIES</h1>
+<p>I am mostly reserved but my few friends can attest to the fact that i can be a total whackhead around them.....Lol.</p>
+  <p>Bottomline is, i maintain my lane if we don't vibe well. Asides that, i love reading(novels and other kinds of books), watching movies, eating,(covers face) and constantly improving on myself.</p>
+        <p><label>Below is a list of my favourite movies/series</label></p>
+          <ul>
+        <li>The Blacklist..... Reddington is my favourite criminal. My criminal mentor if there's anything like that.</li>
+              <li>The Flash</li>
+              <li>How to Get Away with Murder...... I totally love Annalise</li>
+              <li>Merlin</li>
+              <li>Umbrella Academy</li>
+              <li>The Old Guard</li>
+              <li>Oloture</li>
+              <li>Citation</li>
+              <li>Work It</li>
+              <li>Etc..... There are so many more that i can't remember now</li>
+        </ul>
+        <p>
+       I also write once in a while.... I hope to one day write a story and publish my book.... That's if my laziness allows me. I equally like doing thing with my hands.... Practical stuff like in school and a little craftwork 
+</p>        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <!--        <img src="Speech%202.jpg">-->
+<!--      If you want to add style properties to a group of elements, its much better to use classes then apply those styling ppties. Ids are more specific and are mainly used to interact with javascript(js). Its often better to use external js files but for now, ill embed a little js here. To embed js;   -->
+        <script>
+        function dropdownItems() {
+            var x = document.getElementById("dropdownClick");
+            //the keyword document enables this js snippet interact with the html file while 'getElementById' allows us target the area/element we want by its id.
+            
+            if(x.className === "topnav") {
+                x.className += " responsive";
+                /* change topnav to topnav.responsive when button is clicked ie when that icon is clicked, a new class called topnav.responsive is created then we can structure the elements properly now when the icon is clicked*/
+            }
+            else {
+                x.className = "topnav";
+                
+            }
+        }
+        </script>
+        
+            
+    </body>
+    
+</html>
