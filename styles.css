@@ -1,0 +1,128 @@
+/*########  Defaults  #######*/
+h1{
+    font-family: cursive;
+    font-size: 25px;
+}
+p {
+    font-family: cursive;
+    font-size: 15px;
+        
+}
+
+nav, header, footer
+{display: block;}
+
+
+body{
+line-height: 1;
+    margin: 0;
+/*    you set line height so that the text doesn't begin to run over each other. we set margin to 0 because if its not set, browsers like to give their own margin so setting it to 0 makes it line edge to edge.*/
+    background-image: url(Speech%202.jpg);
+/*
+    background-image: url(mee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+*/
+}
+
+
+/*###### Navbar  ######*/
+nav{
+    width: 100% /*This ensures that the navbar takes up 100% of the screen be it desktop or mobile*/
+    margin: 0;
+}
+
+nav ul{
+    overflow: hidden; /*this makes sure that when the browser shrinks, it should only cover the size of the screen so i dont have to scroll side to side */
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+ ul.topnav li{
+    list-style: none;
+     float: left;
+}
+
+ul.topnav li.topnav-right{
+    float: right;
+}
+
+ul.topnav li a {
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: fuchsia;
+}
+
+ul.topnav li a:hover{/*try playing around with this... put 'active' or 'anylink' instead of hover*/
+    background-color: blue;
+    color: white;
+}
+
+ul.topnav li.dropdownMenu{
+    display: none;
+}
+
+/*#####  Mobile  #####*/
+@media screen and (max-width: 680px) {
+    ul.topnav li:not(:nth-child(1)){
+        display: none;
+    }
+    
+    ul.topnav li.dropdownMenu{
+        display: block;
+        float: right;
+    }
+    
+    ul.topnav.responsive li.dropdownMenu{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    
+    ul.topnav.responsive{
+        position: relative;
+    }
+    
+    ul.topnav.responsive li{
+        display: inline;
+        float: none;
+    }
+    
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/*
+     body{
+         background-image: url(Speech%202.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    }
+*/
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
