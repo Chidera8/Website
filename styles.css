@@ -35,7 +35,7 @@ nav ul{
     overflow: hidden; /*this makes sure that when the browser shrinks, it should only cover the size of the screen so i dont have to scroll side to side */
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: saddlebrown;
 }
 
  ul.topnav li{
@@ -50,11 +50,11 @@ ul.topnav li.topnav-right{
 ul.topnav li a {
     display: block;
     text-decoration: none;
-    min-height: 16px;
+    min-height: 25px;
     text-align: center;
     padding: 14px;
     text-transform: uppercase;
-    color: fuchsia;
+    color: white;
 }
 
 ul.topnav li a:hover{/*try playing around with this... put 'active' or 'anylink' instead of hover*/
