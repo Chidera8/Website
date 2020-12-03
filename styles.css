@@ -66,6 +66,13 @@ ul.topnav li.dropdownMenu{
     display: none;
 }
 
+
+.body{
+    text-align: center;
+    color: snow;
+}
+
+
 /*#####  Mobile  #####*/
 @media screen and (max-width: 680px) {
     ul.topnav li:not(:nth-child(1)){
