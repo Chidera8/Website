@@ -1,11 +1,11 @@
 /*########  Defaults  #######*/
 h1{
-    font-family: cursive;
-    font-size: 25px;
+    font-family: sans-serif;
+    font-size: 55px;
 }
 p {
-    font-family: cursive;
-    font-size: 15px;
+    font-family: sans-serif;
+    font-size: 35px;
         
 }
 
@@ -18,11 +18,10 @@ line-height: 1;
     margin: 0;
 /*    you set line height so that the text doesn't begin to run over each other. we set margin to 0 because if its not set, browsers like to give their own margin so setting it to 0 makes it line edge to edge.*/
     background-image: url(Speech%202.jpg);
-/*
-    background-image: url(mee.jpg);
+
     background-repeat: no-repeat;
     background-size: cover;
-*/
+
 }
 
 
@@ -98,8 +97,15 @@ ul.topnav li.dropdownMenu{
         text-align: left;
     }
     
-    
-    
+    h1{
+    font-family: sans-serif;
+    font-size: 35px;
+}
+p {
+    font-family: sans-serif;
+    font-size: 20px;
+        
+}   
     
     
     
