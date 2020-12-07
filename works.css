@@ -13,7 +13,8 @@ html{
 nav, header, footer
 {display: block;}
 
-
+h1{
+color: black;}
 
 body{
     background-image: url(mee.jpg);
@@ -32,7 +33,7 @@ nav ul{
     overflow: hidden; /*this makes sure that when the browser shrinks, it should only cover the size of the screen so i dont have to scroll side to side */
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: saddlebrown;
 }
 
  ul.topnav li{
@@ -51,17 +52,20 @@ ul.topnav li a {
     text-align: center;
     padding: 14px;
     text-transform: uppercase;
-    color: fuchsia;
+    color: black;
 }
 
 ul.topnav li a:hover{/*try playing around with this... put 'active' or 'anylink' instead of hover*/
-    background-color: blue;
+    background-color: darkgrey;
     color: white;
 }
 
 ul.topnav li.dropdownMenu{
     display: none;
 }
+
+.body{
+font-size: 20px;}
 
 /*#####  Mobile  #####*/
 @media screen and (max-width: 680px) {
