@@ -2,6 +2,9 @@
 /*########  Defaults  #######*/
 nav, header, footer
 {display: block;}
+
+h1{
+color: black;}
 body{
     background-image: url(Speech%202.jpg);
     background-repeat: no-repeat;
