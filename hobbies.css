@@ -3,7 +3,7 @@
 nav, header, footer
 {display: block;}
 body{
-    background-image: url(ME%20-%20Lagoon%20Front.jpg);
+    background-image: url(Speech%202.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -23,7 +23,7 @@ nav ul{
     overflow: hidden; /*this makes sure that when the browser shrinks, it should only cover the size of the screen so i dont have to scroll side to side */
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: saddlebrown;
 }
 
  ul.topnav li{
@@ -42,11 +42,11 @@ ul.topnav li a {
     text-align: center;
     padding: 14px;
     text-transform: uppercase;
-    color: fuchsia;
+    color: white;
 }
 
 ul.topnav li a:hover{/*try playing around with this... put 'active' or 'anylink' instead of hover*/
-    background-color: blue;
+    background-color: darkgrey;
     color: white;
 }
 
