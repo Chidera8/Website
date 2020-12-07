@@ -33,7 +33,7 @@ nav ul{
     overflow: hidden; /*this makes sure that when the browser shrinks, it should only cover the size of the screen so i dont have to scroll side to side */
     margin: 0;
     padding: 0;
-    background-color: saddlebrown;
+    background-color: beige;
 }
 
  ul.topnav li{
@@ -65,7 +65,8 @@ ul.topnav li.dropdownMenu{
 }
 
 .body{
-font-size: 20px;}
+font-size: 20px;
+color: snow;}
 
 /*#####  Mobile  #####*/
 @media screen and (max-width: 680px) {
